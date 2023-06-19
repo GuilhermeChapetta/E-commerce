@@ -26,7 +26,7 @@ body{
 }
 
 .header-inner-content{
-  max-width: 1300px ;
+  max-width: 1200px ;
   margin-left: auto;
   margin-right: auto;
 }
@@ -34,6 +34,36 @@ body{
   text-decoration: none;
   color:inherit
 }
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px rgb(228, 169, 91);
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#txtBusca{
+  float:left;
+  background-color:transparent;
+  padding-left:5px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#btnBusca{
+  border: none;
+  float:left;
+  height:29px;
+  border-radius:0 7px 7px 0;
+  width:105px;
+  font-weight:bold;
+  background:rgb(233, 187, 126);
+}
+
+
 .navbar{
   background-color: rgb(228, 169, 91);
   padding: 1rem;
